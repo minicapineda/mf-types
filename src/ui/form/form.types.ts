@@ -14,4 +14,5 @@ export interface FormComponentProps {
 	extraFields?: FieldConfig[];
 	onSubmit: (values: Record<string, string>) => void;
 	buttonText?: string;
+	isLoading?: boolean;
 }
