@@ -4,5 +4,6 @@ export * from "./createoptionmodal";
 export * from "./form";
 export * from "./input";
 export * from "./navbar";
+export * from "./pagination";
 export * from "./table";
 export * from "./tokens";
