@@ -6,4 +6,5 @@ export * from "./input";
 export * from "./navbar";
 export * from "./pagination";
 export * from "./table";
+export * from "./title";
 export * from "./tokens";

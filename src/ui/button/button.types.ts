@@ -12,4 +12,5 @@ export interface ButtonProps {
 	onClick?: (event: unknown) => void;
 	fullWidth?: boolean;
 	type?: "button" | "submit" | "reset";
+	isLoading?: boolean;
 }
