@@ -10,4 +10,19 @@ export interface TableProps<T, R = unknown> {
 	columns: TableColumn<T, R>[];
 	loading?: boolean;
 	emptyMessage?: string;
+	totalCount?: number;
+	page?: number;
+	rowsPerPage?: number;
+	onPageChange?: (page: number) => void;
+	onRowsPerPageChange?: (rowsPerPage: number) => void;
+	onSearch?: (query: string) => void;
+}
+
+// factura.types.ts (Nueva interfaz de negocio)
+export interface Factura {
+	id: number;
+	codigo: string;
+	cliente: string;
+	total: string;
+	fecha: string;
 }
