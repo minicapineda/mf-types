@@ -1,4 +1,3 @@
-// table.types.ts
 export interface TableColumn<T, R = unknown> {
 	key: keyof T | string;
 	header: string;
@@ -18,8 +17,7 @@ export interface TableProps<T, R = unknown> {
 	onSearch?: (query: string) => void;
 }
 
-// factura.types.ts (Nueva interfaz de negocio)
-export interface Factura {
+export interface Invoices {
 	id: number;
 	codigo: string;
 	cliente: string;
