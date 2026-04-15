@@ -1,2 +1,2 @@
-export * from "./shared/index";
-export * from "./ui/index";
+export * from './shared';
+export * from './ui';

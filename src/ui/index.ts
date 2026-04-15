@@ -6,6 +6,7 @@ export * from './input';
 export * from './inputdate';
 export * from './navbar';
 export * from './pagination';
+export * from './sidebar';
 export * from './table';
 export * from './title';
 export * from './tokens';
