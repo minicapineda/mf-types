@@ -1,6 +1,7 @@
 export * from './autocomplete';
 export * from './button';
 export * from './createoptionmodal';
+export * from './dialog';
 export * from './form';
 export * from './input';
 export * from './inputdate';
