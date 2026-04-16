@@ -10,4 +10,5 @@ export * from './pagination';
 export * from './sidebar';
 export * from './table';
 export * from './title';
+export * from './toast';
 export * from './tokens';
